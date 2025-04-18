@@ -147,7 +147,7 @@ def get_access_token():
 
 def get_meeting_options() -> Optional[Dict[str, Any]]:
     """Get available meeting options from the API"""
-    url = "https://add-in-gvbvabchhdf6h3ez.centralindia-01.azurewebsites.net/save-meeting/"
+    url = "https://add1.onrender.com/save-meeting/"
 
     headers = {
         'Accept': 'application/json',
